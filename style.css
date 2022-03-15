@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/12819425/thumb/1.jpg");
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    background-color: #111;
+  }
+  
+  h1 {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .reiniciar {
+    background-color: red;
+    color: whitesmoke;
+    border: solid white 2px;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .adicionar {
+    background-color: black;
+    color: whitesmoke;
+    border: solid white 2px;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 1px white;
+    color: white;
+  }
